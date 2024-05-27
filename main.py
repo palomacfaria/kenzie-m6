@@ -55,9 +55,11 @@ print("tentativa de soma de meu_numero com minha_string")
 soma = meu_numero + minha_string
 # output: TypeError: unsupported operand type(s) for +: 'int' and 'str'
 
+
 def minha_funcao():
     meu_valor = 1234
     return meu_valor
+
 
 print(minha_funcao())
 # output: 1234
